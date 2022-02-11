@@ -23,6 +23,8 @@ Determine the time and space complexities for each of the following functions. I
 
 ```js
 // 1.
+time comp. => O(n)
+space comp. => O(1)
 
 function logUpTo(n) {
   for (let i = 1; i <= n; i++) {
@@ -31,6 +33,8 @@ function logUpTo(n) {
 }
 
 // 2.
+time comp. => O(1)
+space comp. => O(1)
 
 function logAtMost10(n) {
   for (let i = 1; i <= Math.min(n, 10); i++) {
@@ -39,6 +43,8 @@ function logAtMost10(n) {
 }
 
 // 3.
+time comp. => O(n)
+space comp. => O(1)
 
 function logAtLeast10(n) {
   for (let i = 1; i <= Math.max(n, 10); i++) {
@@ -47,6 +53,8 @@ function logAtLeast10(n) {
 }
 
 // 4.
+time comp. => O(n)
+space comp. => O(n)
 
 function onlyElementsAtEvenIndex(array) {
   let newArray = Array(Math.ceil(array.length / 2));
@@ -59,6 +67,8 @@ function onlyElementsAtEvenIndex(array) {
 }
 
 // 5.
+time comp. => O(n ^ 2)
+space comp. => O(n)
 
 function subtotals(array) {
   let subtotalArray = Array(array.length);
